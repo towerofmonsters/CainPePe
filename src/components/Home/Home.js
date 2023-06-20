@@ -14,9 +14,7 @@ import { FaTwitter } from "react-icons/fa";
 import { Label } from 'semantic-ui-react'
 import { ImCross } from "react-icons/im";
 import { FcCheckmark, FcServices, FcSynchronize } from "react-icons/fc";
-import Bounce from 'react-reveal/Bounce';
-import Fade from 'react-reveal/Fade';
-import Slide from 'react-reveal/Slide';
+
 
 const Home = () => {
 
@@ -38,30 +36,30 @@ const Home = () => {
                         </div>
                         <div className="z-20 ">
                             <div className="absolute text-center z-0   sm: top-28 md:right-20 md:top-44 lg:right-[180px]  2xl:right-[250px] xl:right-48 lg:top-48 sm:right-0">
-                                <Bounce left>
-                                    <div className="md:py-2">
-                                        <span className="lg:text-9xl md:text-7xl sm:text-5xl  font-color border-b-2 border-cyan-600  font-Lucky text-dark-green  mr-24">
-                                            CAIN
-                                        </span>
-                                    </div>
-                                </Bounce>
+
+                                <div className="md:py-2">
+                                    <span className="lg:text-9xl md:text-7xl sm:text-5xl  font-color border-b-2 border-cyan-600  font-Lucky text-dark-green  mr-24">
+                                        CAIN
+                                    </span>
+                                </div>
+
                                 <br></br>
-                                <Bounce right>
-                                    <div className=" h-[200px] md:py-10" >
-                                        <span className="lg:text-9xl md:text-7xl sm:text-5xl font-fam-the font-color-the  font-Lucky   text-light-green  md:pl-24 md:mr-1 ">
-                                            P
-                                        </span>
-                                        <span className="lg:text-9xl md:text-7xl sm:text-5xl font-fam-the font-color-the  font-Lucky animate-bounce absolute  text-light-green  ">
-                                            E
-                                        </span>
-                                        <span className="lg:text-9xl md:text-7xl sm:text-5xl font-fam-the font-color-the  font-Lucky  text-light-green md:ml-16 sm:ml-6   ">
-                                            P
-                                        </span>
-                                        <span className="lg:text-9xl md:text-7xl sm:text-5xl font-fam-the font-color-the  font-Lucky animate-bounce absolute  text-light-green    ">
-                                            E
-                                        </span>
-                                    </div>
-                                </Bounce>
+
+                                <div className=" h-[200px] md:py-10" >
+                                    <span className="lg:text-9xl md:text-7xl sm:text-5xl font-fam-the font-color-the  font-Lucky   text-light-green  md:pl-24 md:mr-1 ">
+                                        P
+                                    </span>
+                                    <span className="lg:text-9xl md:text-7xl sm:text-5xl font-fam-the font-color-the  font-Lucky animate-bounce absolute  text-light-green  ">
+                                        E
+                                    </span>
+                                    <span className="lg:text-9xl md:text-7xl sm:text-5xl font-fam-the font-color-the  font-Lucky  text-light-green md:ml-16 sm:ml-6   ">
+                                        P
+                                    </span>
+                                    <span className="lg:text-9xl md:text-7xl sm:text-5xl font-fam-the font-color-the  font-Lucky animate-bounce absolute  text-light-green    ">
+                                        E
+                                    </span>
+                                </div>
+
                             </div>
                         </div>
                     </div>
@@ -69,24 +67,24 @@ const Home = () => {
 
                 <section id="About">
                     <div className="my-10 mx-2 ">
-                        <Fade left>
-                            <div className="my-5">
-                                <span className=" text-6xl text-dark-green font-Lucky border-b-4 border-blue-800 ">
-                                    Abo
-                                </span>
-                                <span className="text-6xl text-dark-green font-Lucky">ut</span>
-                            </div>
-                        </Fade>
+
+                        <div className="my-5">
+                            <span className=" text-6xl text-dark-green font-Lucky border-b-4 border-blue-800 ">
+                                Abo
+                            </span>
+                            <span className="text-6xl text-dark-green font-Lucky">ut</span>
+                        </div>
+
 
                         <div className="grid grid-cols-2  bg-green-med rounded-3xl    text-dark-green sm:h-[700px] md:h-[650px] lg:h-[550px] xl:h-[450px] 2xl:h-[390px] ">
-                            <Fade bottom>
-                                <div className="w-full   z-10 my-auto">
-                                    <div className="md:w-max-[400px] lg:w-max-[500px] sm:text-left md:text-left mx-5 md:tracking-wider md:indent-5 font-Gugi space-y-6 sm:text-dark-green md:text-light-flesh">
-                                        <p className=" lg:text-7xl md:text-5xl sm:text-3xl text-center mx-2 my-2">CAIN PEPE</p>
-                                        <span className="  md:text-2xl sm:text-xl ">Welcome to the world of Cain-PEPE Coin, the latest addition to the meme coin universe, backed by the reliability and efficiency of the Binance Smart Chain. Our coin harnesses the playful energy and undeniable appeal of meme culture, while offering real-world utility and strong value to its holders. This is a two stage project, the other project after this will be HUGE, you will be enjoying the trill of P2E and Casino and other FEATURES on one project. I promise that all of the holders of this token will be rewarded on our stage 2 project!</span>
-                                    </div>
+
+                            <div className="w-full   z-10 my-auto">
+                                <div className="md:w-max-[400px] lg:w-max-[500px] sm:text-left md:text-left mx-5 md:tracking-wider md:indent-5 font-Gugi space-y-6 sm:text-dark-green md:text-light-flesh">
+                                    <p className=" lg:text-7xl md:text-5xl sm:text-3xl text-center mx-2 my-2">CAIN PEPE</p>
+                                    <span className="  md:text-2xl sm:text-xl ">Welcome to the world of Cain-PEPE Coin, the latest addition to the meme coin universe, backed by the reliability and efficiency of the Binance Smart Chain. Our coin harnesses the playful energy and undeniable appeal of meme culture, while offering real-world utility and strong value to its holders. This is a two stage project, the other project after this will be HUGE, you will be enjoying the trill of P2E and Casino and other FEATURES on one project. I promise that all of the holders of this token will be rewarded on our stage 2 project!</span>
                                 </div>
-                            </Fade>
+                            </div>
+
                             <div>
                                 <img className="sm:h-[500px] md:h-[500px] sm:right-7   absolute  top-[655px] md:top-[755px] lg:top-[755px] xl:top-[755px] 2xl:top-[695px] z-0" src={pepe2} alt="pepe2" />
                             </div>
@@ -127,13 +125,12 @@ const Home = () => {
                     </div>
 
                     <div className=" bg-gradient-to-t from-dark-green mx-auto flex justify-center">
-                        <Fade>
-                            <Slide bottom>
-                                <div className="py-10 ">
-                                    <img src={Pie} alt="Pie" />
-                                </div>
-                            </Slide>
-                        </Fade>
+
+
+                        <div className="py-10 ">
+                            <img src={Pie} alt="Pie" />
+                        </div>
+
                     </div>
                 </section>
 
@@ -145,78 +142,77 @@ const Home = () => {
 
                         <div
                             className="grid pt-[50px]  w-full  sm:grid-cols-1 sm:gap-y-10 lg:grid-cols-2 mx-auto  ">
-                            <Slide left>
-                                <div
-                                    className="flex flex-col items-center p-7 rounded-lg hover:shadow-xl transition-shadow  duration-300 2xl:ml-[240px] xl:mr-[100px]   sm:place-self-center sm:h-96 md:h-[300px] lg:h-[350px]  border-2 bg-opacity-30 text-left">
-                                    <div className="hover:text-lime-500 flex flex-col items-center about-text mb-5">
-                                        <FcServices size={50} />
-                                        <h1 className=" font-Gugi my-5 ">PHASE 1</h1>
+
+                            <div
+                                className="flex flex-col items-center p-7 rounded-lg hover:shadow-xl transition-shadow  duration-300 2xl:ml-[240px] xl:mr-[100px]   sm:place-self-center sm:h-96 md:h-[300px] lg:h-[350px]  border-2 bg-opacity-30 text-left">
+                                <div className="hover:text-lime-500 flex flex-col items-center about-text mb-5">
+                                    <FcServices size={50} />
+                                    <h1 className=" font-Gugi my-5 ">PHASE 1</h1>
+                                </div>
+                                <div className=" font-Gugi space-y-2">
+                                    <div className="flex space-x-2">
+                                        <FcCheckmark size={30} className="animate-pulse" />
+                                        <span class=" text-xl mt-1">Building our Website</span>
+
                                     </div>
-                                    <div className=" font-Gugi space-y-2">
-                                        <div className="flex space-x-2">
-                                            <FcCheckmark size={30} className="animate-pulse" />
-                                            <span class=" text-xl mt-1">Building our Website</span>
+                                    <div className="flex space-x-2">
+                                        <FcCheckmark size={30} className="animate-pulse" />
+                                        <span class=" text-xl mt-1"> Smart Contract Creation</span>
 
-                                        </div>
-                                        <div className="flex space-x-2">
-                                            <FcCheckmark size={30} className="animate-pulse" />
-                                            <span class=" text-xl mt-1"> Smart Contract Creation</span>
+                                    </div>
+                                    <div className="flex space-x-2">
+                                        <FcCheckmark size={30} className="animate-pulse" />
+                                        <span class=" text-xl mt-1">Community Building TG/Discord</span>
 
-                                        </div>
-                                        <div className="flex space-x-2">
-                                            <FcCheckmark size={30} className="animate-pulse" />
-                                            <span class=" text-xl mt-1">Community Building TG/Discord</span>
+                                    </div>
+                                    <div className="flex space-x-2">
+                                        <FcCheckmark size={30} className="animate-pulse" />
+                                        <span class=" text-xl mt-1"> Pink Sale Listing for Presale</span>
 
-                                        </div>
-                                        <div className="flex space-x-2">
-                                            <FcCheckmark size={30} className="animate-pulse" />
-                                            <span class=" text-xl mt-1"> Pink Sale Listing for Presale</span>
+                                    </div>
+                                    <div className="flex space-x-2">
+                                        <ImCross size={30} className="animate-pulse text-red-600" />
+                                        <span class=" text-xl mt-1"> Casual Marketing</span>
 
-                                        </div>
-                                        <div className="flex space-x-2">
-                                            <ImCross size={30} className="animate-pulse text-red-600" />
-                                            <span class=" text-xl mt-1"> Casual Marketing</span>
-
-                                        </div>
                                     </div>
                                 </div>
-                            </Slide>
-                            <Slide right>
-                                <div
-                                    className="flex flex-col items-center p-7 rounded-lg hover:shadow-xl transition-shadow 2xl:mr-[200px] xl:mr-[20px] duration-300  sm:place-self-center sm:h-96 md:h-[300px] lg:h-[350px]  border-2 bg-opacity-30 text-left">
-                                    <div className="hover:text-lime-500 flex flex-col items-center about-text mb-5">
-                                        <FcSynchronize size={50} className=" animate-spin" />
-                                        <h1 className="font-Gugi my-2">PHASE 2</h1>
+                            </div>
+
+                            <div
+                                className="flex flex-col items-center p-7 rounded-lg hover:shadow-xl transition-shadow 2xl:mr-[200px] xl:mr-[20px] duration-300  sm:place-self-center sm:h-96 md:h-[300px] lg:h-[350px]  border-2 bg-opacity-30 text-left">
+                                <div className="hover:text-lime-500 flex flex-col items-center about-text mb-5">
+                                    <FcSynchronize size={50} className=" animate-spin" />
+                                    <h1 className="font-Gugi my-2">PHASE 2</h1>
+                                </div>
+                                <div className=" font-Gugi space-y-2">
+                                    <div className="flex space-x-2 ">
+                                        <ImCross size={30} className="animate-pulse text-red-600" />
+                                        <span class=" text-xl mt-1 ">CG/CMC Listing</span>
+
                                     </div>
-                                    <div className=" font-Gugi space-y-2">
-                                        <div className="flex space-x-2 ">
-                                            <ImCross size={30} className="animate-pulse text-red-600" />
-                                            <span class=" text-xl mt-1 ">CG/CMC Listing</span>
+                                    <div className="flex space-x-2">
+                                        <ImCross size={30} className="animate-pulse text-red-600" />
+                                        <span class=" text-xl mt-1">AIRDROP for HOLDERS</span>
 
-                                        </div>
-                                        <div className="flex space-x-2">
-                                            <ImCross size={30} className="animate-pulse text-red-600" />
-                                            <span class=" text-xl mt-1">AIRDROP for HOLDERS</span>
+                                    </div>
+                                    <div className="flex space-x-2">
+                                        <ImCross size={30} className="animate-pulse text-red-600" />
+                                        <span class=" text-xl mt-1">Polishing our STAGE2 PROJECT </span>
 
-                                        </div>
-                                        <div className="flex space-x-2">
-                                            <ImCross size={30} className="animate-pulse text-red-600" />
-                                            <span class=" text-xl mt-1">Polishing our STAGE2 PROJECT </span>
+                                    </div>
+                                    <div className="flex space-x-2">
+                                        <ImCross size={30} className="animate-pulse text-red-600" />
+                                        <span class=" text-xl mt-1">Whitelisting all the HOLDERS</span>
 
-                                        </div>
-                                        <div className="flex space-x-2">
-                                            <ImCross size={30} className="animate-pulse text-red-600" />
-                                            <span class=" text-xl mt-1">Whitelisting all the HOLDERS</span>
+                                    </div>
+                                    <div className="flex space-x-2">
+                                        <ImCross size={30} className="animate-pulse  text-red-600" />
+                                        <span class=" text-xl mt-1">We Continue on next STAGE!</span>
 
-                                        </div>
-                                        <div className="flex space-x-2">
-                                            <ImCross size={30} className="animate-pulse  text-red-600" />
-                                            <span class=" text-xl mt-1">We Continue on next STAGE!</span>
-
-                                        </div>
                                     </div>
                                 </div>
-                            </Slide>
+                            </div>
+
                         </div>
 
                     </div>
