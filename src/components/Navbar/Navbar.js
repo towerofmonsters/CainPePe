@@ -1,5 +1,5 @@
-import React from "react";
-import { useState } from "react";
+import React, { useState } from "react";
+
 import { Link } from "react-scroll";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { ImCross } from "react-icons/im";
@@ -7,6 +7,8 @@ import logo from '../Images/logohart.png';
 import './Navbar.css';
 
 const Navbar = () => {
+
+
     const [hideSidebar, setHideSideBar] = useState(true);
     const toggleChecked = () => setHideSideBar((value) => !value);
 
