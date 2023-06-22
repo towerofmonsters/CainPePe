@@ -111,14 +111,19 @@ const Home = () => {
                                         </Button>
                                     </div>
                                     <div>
-                                        <Button variant="contained" endIcon={<FaTwitter />}>
-                                            Twitter
-                                        </Button>
+                                        <a href="https://twitter.com/cainpp001">
+                                            <Button variant="contained" endIcon={<FaTwitter />}>
+
+                                                Twitter
+                                            </Button>
+                                        </a>
                                     </div>
                                     <div>
-                                        <Button variant="contained" endIcon={<FaTelegramPlane />}>
-                                            Telegram
-                                        </Button>
+                                        <a href="https://t.me/cain_pepe">
+                                            <Button variant="contained" endIcon={<FaTelegramPlane />}>
+                                                Telegram
+                                            </Button>
+                                        </a>
                                     </div>
                                 </div>
                             </Slide>
