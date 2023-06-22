@@ -98,7 +98,7 @@ const Home = () => {
                                 <div className="text-black my-10">
                                     <Label>
                                         <span className=" text-black text-base">CA</span>
-                                        <Label.Detail className=" text-base text-dark-green" >0xd01a8A289E215a5f964C72701Ca79103De7a0480</Label.Detail>
+                                        <Label.Detail className=" text-base text-dark-green" >0x39BA95fF0FC9d3a8345ff32C4f41f24013d65d36</Label.Detail>
 
                                     </Label>
                                 </div>
