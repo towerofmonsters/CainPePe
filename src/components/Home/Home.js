@@ -178,12 +178,12 @@ const Home = () => {
 
                                         </div>
                                         <div className="flex space-x-2">
-                                            <FcCheckmark size={30} className="animate-pulse" />
+                                            <ImCross size={30} className="animate-pulse" />
                                             <span class=" text-xl mt-1">Community Building TG/Discord</span>
 
                                         </div>
                                         <div className="flex space-x-2">
-                                            <FcCheckmark size={30} className="animate-pulse" />
+                                            <ImCross size={30} className="animate-pulse" />
                                             <span class=" text-xl mt-1"> Pink Sale Listing for Presale</span>
 
                                         </div>
